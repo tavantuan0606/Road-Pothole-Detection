@@ -50,10 +50,10 @@ Dự án này sử dụng mô hình Faster R-CNN để phát hiện ổ gà tron
 ### Cài đặt
 
 Clone kho lưu trữ:
-
+```c
 git clone https://github.com/your-repo/pothole-detection.git
 cd pothole-detection
-
+```
 Cài đặt các gói Python cần thiết:
 
 pip install -r requirements.txt
