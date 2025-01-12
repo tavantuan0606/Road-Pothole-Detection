@@ -2,7 +2,7 @@ Phát hiện ổ gà sử dụng Faster R-CNN
 
 Dự án này sử dụng mô hình Faster R-CNN để phát hiện ổ gà trong hình ảnh đường phố. Bộ dữ liệu bao gồm các hình ảnh được gắn nhãn chỉ ra sự hiện diện của ổ gà. README này sẽ hướng dẫn bạn qua cấu trúc dự án, cài đặt và hướng dẫn sử dụng.
 
-Cấu trúc Dự án
+#Cấu trúc Dự án
 
 .
 ├── config.py            # Cài đặt cấu hình cho mô hình và quá trình huấn luyện
