@@ -102,4 +102,4 @@ Sau khi huấn luyện, chạy script kiểm thử để đánh giá mô hình:
 ```c
 python test.py
 ```
-Điều này sẽ xử lý các hình ảnh kiểm thử, vẽ các hộp bao quanh các ổ gà được phát hiện và lưu các hình ảnh đầu ra vào thư mục test_prediction.
+Xử lý các hình ảnh kiểm thử, vẽ các hộp bao quanh các ổ gà được phát hiện và lưu các hình ảnh đầu ra vào thư mục test_prediction.
