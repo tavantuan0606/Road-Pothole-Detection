@@ -1,8 +1,8 @@
-Phát hiện ổ gà sử dụng Faster R-CNN
+# Phát hiện ổ gà sử dụng Faster R-CNN
 
 Dự án này sử dụng mô hình Faster R-CNN để phát hiện ổ gà trong hình ảnh đường phố. Bộ dữ liệu bao gồm các hình ảnh được gắn nhãn chỉ ra sự hiện diện của ổ gà. README này sẽ hướng dẫn bạn qua cấu trúc dự án, cài đặt và hướng dẫn sử dụng.
 
-# Cấu trúc Dự án
+## Cấu trúc Dự án
 
 
 ├── config.py            # Cài đặt cấu hình cho mô hình và quá trình huấn luyện
@@ -25,29 +25,29 @@ Dự án này sử dụng mô hình Faster R-CNN để phát hiện ổ gà tron
 
 └── output               # Thư mục lưu các tệp đầu ra
 
-Cài đặt
+## Cài đặt
 
-Yêu cầu
+### Yêu cầu
 
-Python 3.7+
+-Python 3.7+
 
-PyTorch
+-PyTorch
 
-torchvision
+-torchvision
 
-albumentations
+-albumentations
 
-OpenCV
+-OpenCV
 
-pandas
+-pandas
 
-numpy
+-numpy
 
-matplotlib
+-matplotlib
 
-tqdm
+-tqdm
 
-Cài đặt
+### Cài đặt
 
 Clone kho lưu trữ:
 
@@ -58,7 +58,7 @@ Cài đặt các gói Python cần thiết:
 
 pip install -r requirements.txt
 
-Cấu hình
+### Cấu hình
 
 Chỉnh sửa config.py để thiết lập các tham số huấn luyện và đường dẫn đến bộ dữ liệu:
 
@@ -82,9 +82,9 @@ PREDICTION_THRES: Ngưỡng lọc dự đoán trong quá trình kiểm thử.
 
 OUT_DIR: Thư mục lưu các tệp đầu ra (mô hình, biểu đồ, v.v.).
 
-Sử dụng
+## Sử dụng
 
-Huấn luyện
+### Training
 
 Chạy script huấn luyện:
 
@@ -96,31 +96,10 @@ python train.py
 
 python dataset.py
 
-Kiểm thử
+### Testing
 
 Sau khi huấn luyện, chạy script kiểm thử để đánh giá mô hình:
 
 python test.py
 
 Điều này sẽ xử lý các hình ảnh kiểm thử, vẽ các hộp bao quanh các ổ gà được phát hiện và lưu các hình ảnh đầu ra vào thư mục test_prediction.
-
-Lời cảm ơn
-
-Bộ dữ liệu sử dụng trong dự án này được lấy từ road-pothole-images-for-pothole-detection.
-
-Việc triển khai dựa trên PyTorch và torchvision.
-
-Giấy phép
-
-Dự án này được cấp phép dưới giấy phép MIT - xem tệp LICENSE để biết chi tiết.
-
-Đóng góp
-
-Các đóng góp được hoan nghênh! Vui lòng gửi một pull request hoặc mở một issue cho bất kỳ lỗi hoặc yêu cầu tính năng nào.
-
-Liên hệ
-
-Để có bất kỳ câu hỏi hoặc thắc mắc nào, vui lòng liên hệ Tên của bạn.
-
-README này cung cấp cái nhìn tổng quan về dự án Phát hiện ổ gà, bao gồm cài đặt, sử dụng và cấu trúc các tệp dự án. Hãy làm theo hướng dẫn cẩn thận để huấn luyện và kiểm thử mô hình phát hiện ổ gà.
-
