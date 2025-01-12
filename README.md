@@ -88,14 +88,13 @@ OUT_DIR: Thư mục lưu các tệp đầu ra (mô hình, biểu đồ, v.v.).
 
 Chạy script huấn luyện:
 ```c
-python train.py
-```
-Điều này sẽ huấn luyện mô hình và lưu biểu đồ mất mát cũng như các checkpoint mô hình theo khoảng thời gian được chỉ định.
-
-Để trực quan hóa hình ảnh đã biến đổi trong quá trình huấn luyện, đặt VISUALIZE_TRANSFORMED_IMAGES thành True trong config.py và chạy:
-```c
 python dataset.py
 ```
+
+```c
+python train.py
+```
+
 ### Testing
 
 Sau khi huấn luyện, chạy script kiểm thử để đánh giá mô hình:
